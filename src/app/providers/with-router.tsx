@@ -1,8 +1,6 @@
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import { useRoutes } from "react-router-dom";
-import { HomePage, TodoPage, BlogPage } from "../../pages";
-
-const NotFoundPage = lazy(() => import("../../pages/notFound"));
+import { HomePage, TodoPage, BlogPage, NotFoundPage } from "../../pages";
 
 export const Router = () => {
   const router = useRoutes([
