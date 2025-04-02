@@ -1,5 +1,10 @@
 import "./footer.modules.css";
 
-export const Footer = () => {
-  return <footer className="footer">Подвал приложения</footer>;
+export const FooterWidget = () => {
+  return (
+    <footer className="footer">
+      <p>Подвал приложения</p>
+      <p>Все права защищены))</p>
+    </footer>
+  );
 };

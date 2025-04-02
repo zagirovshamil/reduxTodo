@@ -4,12 +4,14 @@ interface InputFieldProps {
   addTodo: () => void;
   text: string;
   setText: (str: string) => void;
+  buttonText: string;
 }
 
 export const InputField: React.FC<InputFieldProps> = ({
   addTodo,
   text,
   setText,
+  buttonText,
 }) => {
   return (
     <label>
@@ -17,8 +19,11 @@ export const InputField: React.FC<InputFieldProps> = ({
         placeholder="Новая задача"
         value={text}
         onChange={(e) => setText(e.target.value)}
+        className="container__input"
       />
-      <button onClick={addTodo}>Add todo</button>
+      <button className="container__button" onClick={addTodo}>
+        {buttonText}
+      </button>
     </label>
   );
 };

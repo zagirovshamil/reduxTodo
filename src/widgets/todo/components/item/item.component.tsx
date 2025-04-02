@@ -1,5 +1,6 @@
-import { useAppDispatch } from "../../../app/store/hook";
-import { removeTodo } from "../../../app/store/todoSlice";
+import { useAppDispatch } from "../../../../app/store/hook";
+import { removeTodo } from "../../../../app/store/todoSlice";
+import "./item.modules.scss";
 
 interface TodoItemProps {
   id: string;

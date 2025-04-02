@@ -1,12 +1,14 @@
 import { Outlet } from "react-router-dom";
-import { Footer, Header } from "../../widgets/layouts";
+import { FooterPage, HeaderPage } from "..";
 
 export const HomePage = () => {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <HeaderPage />
+      <div className="container">
+        <Outlet />
+      </div>
+      <FooterPage />
     </>
   );
 };

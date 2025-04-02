@@ -1,1 +1,1 @@
-export { HomePage as default } from './homePage'
+export * from './homePage'
