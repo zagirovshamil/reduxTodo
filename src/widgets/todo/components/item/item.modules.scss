@@ -1,3 +1,9 @@
-li {
+.container__item {
   list-style-type: none;
+
+  &-deleteButton {
+    cursor: pointer;
+    color: red;
+    padding: 10px;
+  }
 }
