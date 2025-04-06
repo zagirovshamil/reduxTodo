@@ -1,7 +1,10 @@
-.container__header--link {
+@use "../../../../../assets/consts/style/index" as fonts;
+
+.header--link {
   color: rgb(0, 0, 0);
   padding-right: 10px;
   text-decoration: none;
+  font-family: fonts.$font-main;
   text-align: center;
 }
 

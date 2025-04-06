@@ -8,7 +8,7 @@ interface CustomLinkProps {
 
 export const Link: React.FC<CustomLinkProps> = ({ link, text }) => {
   return (
-    <NavLink className="container__header--link" to={link}>
+    <NavLink className="header--link" to={link}>
       {text}
     </NavLink>
   );

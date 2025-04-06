@@ -1,0 +1,8 @@
+@use "../../../assets/consts/style/index.scss" as color;
+
+.header__container {
+  background-color: color.$color-background-white;
+  &--allLinks {
+    background-color: color.$color-background-white;
+  }
+}

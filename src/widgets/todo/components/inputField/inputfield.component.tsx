@@ -1,3 +1,4 @@
+import { Button, Input } from "antd";
 import React from "react";
 
 interface InputFieldProps {
@@ -15,15 +16,16 @@ export const InputField: React.FC<InputFieldProps> = ({
 }) => {
   return (
     <label>
-      <input
+      <Input
+        variant="outlined"
         placeholder="Новая задача"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        className="container__input"
+        size="middle"
       />
-      <button className="container__button" onClick={addTodo}>
+      <Button color="pink" variant="solid" onClick={addTodo}>
         {buttonText}
-      </button>
+      </Button>
     </label>
   );
 };

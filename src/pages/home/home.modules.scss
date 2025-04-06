@@ -1,0 +1,7 @@
+@use "../../assets/consts/style/_colors.scss" as colors;
+@use "../../assets/consts/style/_fonts.scss" as fonts;
+
+.container {
+  background-color: colors.$color-background-primary;
+  font-family: fonts.$font-main;
+}

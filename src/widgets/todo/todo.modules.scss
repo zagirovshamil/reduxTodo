@@ -5,5 +5,9 @@
   justify-items: row;
   flex-direction: column;
   align-items: center;
-  color: colors.$color-main-card-color;
+  color: colors.$color-text-primary;
+}
+
+.container__input {
+  margin: 10px;
 }

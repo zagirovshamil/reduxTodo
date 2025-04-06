@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { FooterPage, HeaderPage } from "..";
+import "./home.modules.scss";
 
 export const HomePage = () => {
   return (

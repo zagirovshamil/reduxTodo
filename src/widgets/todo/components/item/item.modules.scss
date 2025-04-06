@@ -1,13 +1,19 @@
+@use "../../../../assets/consts/style/index" as color;
+
 .container__item {
   list-style-type: none;
-
-  &-deleteButton {
-    cursor: pointer;
-    color: red;
-    padding: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid color.$color-text-primary;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: color.$color-background-primary;
+  &-text {
+    &-line {
+      text-decoration: line-through;
+    }
   }
-}
-
-.line {
-  text-decoration: line-through black;
 }
