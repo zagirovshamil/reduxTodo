@@ -7,7 +7,6 @@
 
 ```js
 git clone https://github.com/zagirovshamil/reduxTodo.git
-yarn i 
 ```
 
 Была решена проблема конфликта использования старого движка под капотом vite и scss
